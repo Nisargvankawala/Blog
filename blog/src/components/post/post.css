@@ -1,0 +1,67 @@
+.post{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 30px 60px;
+    border-radius: 9px;
+
+}
+.post:hover{
+    box-shadow: 5px 5px 5px rgb(8, 251, 178);
+}
+
+.postImg{
+    width: 410px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCard{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #b29970;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.postTitle{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.postDate{
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 1px;
+    color: #767575;
+}
+
+.postDesc{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #323131;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
